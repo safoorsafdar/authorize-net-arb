@@ -1,0 +1,25 @@
+{
+    "name": "safoorsafdar/payum-authorize-net-arb",
+    "type": "library",
+    "description": "The Payum extension. It provides Authorize.Net ARB payment integration.",
+    "keywords": ["payment", "authorize.net", "authorizenet","payum"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Safoor Safdar",
+            "email": "safoor.safdar@gmail.com"
+        }
+    ],
+    "require": {
+        "payum/core": "~1.0",
+        "authorizenet/authorizenet": "~1.8"
+    },
+    "require-dev": {
+        "payum/core": "~1.0@dev",
+        "phpunit/phpunit": "~4.0",
+        "symfony/phpunit-bridge": "~2.8|~3.0"
+    },
+    "autoload": {
+        "psr-0": { "SafoorSafdar\\AuthorizeNetARB": "" }
+    }
+}
